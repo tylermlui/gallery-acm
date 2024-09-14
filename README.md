@@ -1,22 +1,37 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+# Gallery-ACM 🖼️
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+You can clone this repository from your command line by copying the repository link: <br>
+```bash 
+https://github.com/tylermlui/gallery-acm.git
+```
+<br>
+Once you've copied the repository link you can then run the clone command:<br>
+
+```bash
+git clone https://github.com/tylermlui/gallery-acm.git
+```
+<br>
+You can then go to the directory of the project with the cd command: <br>
+
+```bash
+cd gallery-acm 
+```
+<br>
+And if you're using VScode open the project with the command: <br>
+
+```bash
+code .
+```
+<br>
+Once you've opened the project you can install dependencies with:  <br>
+
+```bash 
+`npm install` (or `pnpm install` or `yarn`)
+```
+<br>
+To start a development server: <br>
 
 ```bash
 npm run dev
@@ -34,5 +49,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
